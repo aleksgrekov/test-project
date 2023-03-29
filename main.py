@@ -9,3 +9,5 @@ for _ in range(5):
     print(text)
 
 print()
+
+print(88)
