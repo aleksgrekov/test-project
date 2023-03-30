@@ -4,7 +4,10 @@ def print_func(text):
     while count <= 6:
         print(text)
         count += 1
+        return count
 
 text = 'Hello! My name is Aleks'
 
-print_func(text)
+num = print_func(text)
+if num >= 6:
+    print('This is fun!')
