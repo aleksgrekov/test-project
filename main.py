@@ -1,13 +1,11 @@
+def print_func(text):
+    count = 0
+
+    while count <= 6:
+        print(text)
+        count += 1
+
 text = 'Hello! My name is Aleks'
-count = 0
 
-while count <= 6:
-    print(text)
-    count += 1
-    
 for _ in range(5):
-    print(text)
-
-print()
-
-print(88)
+    print_func(text)
