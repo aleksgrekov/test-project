@@ -1,10 +1,10 @@
 def print_func(text):
     count = 0
 
-    while count <= 6:
+    while count < 6:
         print(text)
         count += 1
-        return count
+    return count
 
 text = 'Hello! My name is Aleks'
 
