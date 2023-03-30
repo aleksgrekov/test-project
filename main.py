@@ -7,5 +7,4 @@ def print_func(text):
 
 text = 'Hello! My name is Aleks'
 
-for _ in range(5):
-    print_func(text)
+print_func(text)
