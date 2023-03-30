@@ -8,6 +8,5 @@ def print_func(text):
 
 text = 'Hello! My name is Aleks'
 
-num = print_func(text)
-if num >= 6:
-    print('This is fun!')
+if print_func(text) == 6:
+    print('This is not fun!')
