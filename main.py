@@ -9,7 +9,7 @@ def print_func(text):
 text = 'Hello! My name is Aleks'
 
 if print_func(text) <= 6:
-    print('This i fun!')
+    print('This is not fun!')
 else:
     print('8===3')
 
